@@ -204,6 +204,44 @@ header{
 }
 
 /* Our Company section */
+#our-company{
+    background-image: url('img/pre-footer-pizza.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top center;
+    background-color: #000;
+    background-repeat: no-repeat;
+    height: 94.4rem;
+    width: 100%;
+}
+
+.title-our-company{
+    padding-top: 58rem;
+}
+
+.social-company-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 4.6rem;
+}
+
 #our-company img{
     height: 3.8rem;
+}
+
+/* Footer */
+footer{
+    background-color: #000;
+    width: 100%;
+    height: 8rem;
+    padding: 2.5rem 0;
+}
+
+.copyright{
+    font-size: 2.4rem;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
 }
