@@ -245,3 +245,104 @@ footer{
     text-transform: uppercase;
     text-align: center;
 }
+
+/* Menu page */
+.title-menu-options{
+    padding-top: 15rem;
+}
+
+.legend-menu-options{
+    text-align: center;
+    margin-top: 2.2rem;
+}
+
+.menu-options-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: column;
+    align-items: center;
+    column-gap: 4rem;
+    row-gap: 5.2rem;
+    margin-top: 6.3rem
+}
+
+.menu-option{
+    width: 100%;
+    display: flex;
+    gap: 3rem;
+}
+
+.menu-option img{
+    width: 27.3rem;
+    height: 20rem;
+}
+
+.menu-option:nth-child(-n + 4){
+    grid-column: 1;
+}
+
+.menu-option:nth-child(n + 5){
+    grid-column: 2;
+}
+
+.menu-option-texts{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-option-titles{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.menu-option-titles p{
+    font-size: 2.8rem;
+    color: #F2C94C;
+}
+
+/* Responsive */
+@media (max-width: 768px){
+    .title-default::after,
+    .section-title::after{
+        width: 100%;
+    }
+
+    .title-presentation{
+        padding: 10rem;
+    }
+
+    .about-us-content{
+        flex-direction: column;
+        gap: 6rem;
+    }
+
+    .text-about-us{
+        max-width: initial;
+        text-align: center;
+    }
+
+    .our-address-content{
+        flex-direction: column;
+    }
+
+    .our-address-content img{
+        max-width: 100%;
+    }
+
+    .info-our-address{
+        text-align: center;
+    }
+
+    .menu-photos{
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .footer{
+        padding: 2.5rem 0 5rem 0;
+    }
+
+    .copyright{
+        font-size: 1.6rem;
+    }
+}
